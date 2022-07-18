@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: bcd127
+    username: root
+    url: jdbc:mysql://localhost:3306/petshop?ServerTimezone=UTC&createDatabaseIfNotExist=true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
